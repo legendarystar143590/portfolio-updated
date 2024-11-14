@@ -3,12 +3,12 @@ import Typography from "../Typography";
 
 const Pledge = () => {
   return (
-    <div className="flex h-[90vh] bg-slate-800 dark:bg-slate-200 p-10 w-full items-center justify-center">
+    <div className="flex min-h-[90vh] bg-slate-800 dark:bg-slate-200 p-10 w-full items-center justify-center">
       <div className="flex flex-col w-4/5 xm:3/5 lg:w-2/5 gap-20 items-center">
         <Typography className="" size="h3">
           Our Pledge to you
         </Typography>
-        <Typography size="subtitle-25" className="text-center text-balance">
+        <Typography size="subtitle-25" className="text-center">
           We’re not your typical tech company. We won’t sit around throwing buzzwords at you while charging for hours. We’re real, just like you. We understand that sometimes, you’ve got the vision, but need a little help with the execution. That’s where we come in.
         </Typography>
         <Typography size="subtitle-25" className="text-center text-balance">

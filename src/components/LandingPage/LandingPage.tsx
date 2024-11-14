@@ -18,7 +18,7 @@ const LandingPage = () => {
           </Typography>
         </div>
         <Image src={images.landing_image} className="md:block w-auto h-auto" alt="landing_image"
-          priority width="500" height="500" />
+          priority width="400" height="400" />
       </div>
     </div>
   )

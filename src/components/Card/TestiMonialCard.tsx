@@ -1,8 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation'
 import '../../assets/css/multiSlider.css';
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import Typography from '../Typography';
 import Image from 'next/image';
 import useWindowSize from '../../app/hooks/UseWindowSize';
@@ -16,7 +17,8 @@ const TestiMonialCard = () => {
     if (width > 1520) setCurrentSlide(4)
     else if (width > 1024) setCurrentSlide(3)
     else if (width > 768) setCurrentSlide(2)
-    else if (width > 400) setCurrentSlide(1)
+    else if (width > 500) setCurrentSlide(2)
+    else setCurrentSlide(1)
   }, [width])
   return (
     <Swiper
@@ -25,7 +27,8 @@ const TestiMonialCard = () => {
       pagination={{
         clickable: true,
       }}
-      modules={[Pagination]}
+      navigation = {true}
+      modules={[Pagination , Navigation]}
       className="mySwiper"
     >
       {
@@ -34,10 +37,10 @@ const TestiMonialCard = () => {
             <div className="flex flex-col gap-5 p-10 justify-between h-full overflow-hidden dark:text-white">
               <Typography className="h-[300] overflow-x-auto text-justify text-lg" size="paragraph">{item.content}</Typography>
               <div className="flex justify-between">
-                <div className="flex flex-row justify-between overflow-hidden w-full">
+                <div className="flex flex-row justify-between overflow-hidden w-full items-center">
                   <div>
-                    <Typography className="text-balance" size="h4">{item.name}</Typography>
-                    <Typography className="text-balance" size="paragraph">{item.role}</Typography>
+                    <Typography className="text-balance" size="paragraph">{item.name}</Typography>
+                    <Typography className="text-balance" size="body">{item.role}</Typography>
 
                   </div>
                   <div className='flex justify-end'>

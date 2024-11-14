@@ -14,7 +14,7 @@ const MemberCard = ({ item }: MemberCardProps) => {
     <div className="flex flex-col gap-5 justify-between overflow-hidden dark:text-white">
       <Typography className="h-[250] overflow-x-auto text-justify text-lg" size="subtitle-25">{item.introduction}</Typography>
       <div className="flex justify-between">
-        <div className="flex-row justify-between overflow-hidden ">
+        <div className="flex-row justify-between overflow-hidden items-center align-middle">
           <div>
             <Typography className="text-balance" size="h4">{item.name}</Typography>
             <Typography className="text-balance" size="paragraph">{item.role}</Typography>

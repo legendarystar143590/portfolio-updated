@@ -9,7 +9,7 @@ const PreviousProject = () => {
         <div className="flex justify-center items-center h-full">
           <Typography className="dark:text-slate-800 text-white" size="h3">Some Previous Projects</Typography>
         </div>
-        <div className="flex h-[70vh] p-20">
+        <div className="flex h-[70vh] p-10">
           <PreviousCard />
         </div>
       </div >

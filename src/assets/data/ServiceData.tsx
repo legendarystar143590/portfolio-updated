@@ -25,7 +25,7 @@ const ServiceData = [
   {
     Img: images.blockchain,
     title: "Blockchain Development",
-    content: "We develop secure and scalable blockchain solutions, including smart contracts, decentralized applications (DApps), and tokenization, leveraging the power of blockchain technology to revolutionize industries and drive innovation."
+    content: "We develop secure and scalable blockchain solutions, including smart contracts, decentralized applications (DApps), and tokenization, leveraging the power of blockchain technology."
   },
   {
     Img: images.speed,

@@ -23,10 +23,9 @@ export default function Home() {
   return (
     <>
       {isLoading ? (
-        <div className="bg-slate-800 dark:bg-white dark:text-slate-800">
+        <div className="bg-slate-800 dark:bg-white text-slate-100 dark:text-slate-800">
           <Header />
           <main className="">
-
             <LandingPage />
             <Service />
             <IntroService />

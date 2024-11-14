@@ -5,8 +5,8 @@ const ContactInforForm = () => {
   return (
     <div className="flex w-2/3 lg:w-1/2 p-0 lg:p-20 ">
       <div className="flex flex-col gap-5">
-        <Typography className="text-indigo-500 w-full items-center pt-10" size="h3">CONTACT WITH OUR TEAM</Typography>
-        <div className="flex flex-col border-2  border-slate-500 gap-5 p-7 rounded-xl">
+        <Typography className="text-indigo-500 w-full items-center pt-10 " size="h3">CONTACT WITH OUR TEAM</Typography>
+        <div className="flex flex-col border-2  border-slate-500 gap-5 p-7 rounded-xl shadow-lg shadow-indigo-200">
           <Typography className="text-[18px]">If you have any questions or concerns, please do not hesitate to contact me. I am open to any work opportunities that align with my skills and interests.
           </Typography>
           <div className="flex flex-col gap-2">
