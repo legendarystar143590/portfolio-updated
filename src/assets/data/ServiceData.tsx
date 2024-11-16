@@ -15,12 +15,12 @@ const ServiceData = [
   {
     Img: images.trading,
     title: "Trading View",
-    content: "Our team specializes in developing and customizing the TradingView platform, delivering tailored charting solutions, real-time data integration, and advanced technical analysis tools for seamless trading experiences."
+    content: "Our team specializes in developing and customizing the TradingView platform, delivering tailored charting solutions, real-time data integration, and advanced analysis tools for seamless trading experiences."
   },
   {
     Img: images.mobile,
     title: "Mobile APP Development",
-    content: "We craft high-performance mobile apps, from intuitive UI/UX design to robust back-end systems, ensuring responsive, secure, and scalable solutions for both iOS and Android platforms. Quality and efficiency are our core focus."
+    content: "We craft high-performance mobile apps, from UI/UX design to robust back-end systems, ensuring responsive and scalable solutions for both iOS and Android platforms. Quality and efficiency are our core focus."
   },
   {
     Img: images.blockchain,

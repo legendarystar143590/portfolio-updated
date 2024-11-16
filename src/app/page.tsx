@@ -13,6 +13,7 @@ import TeamVision from "@/components/TeamVision/TeamVision";
 import Pledge from "@/components/Pledge/Pledge";
 import TestiMonial from "@/components/TestiMonial/TestiMonial";
 import ContactInfo from "@/components/ContactInfor";
+import { Provider } from "jotai";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false)
@@ -24,19 +25,23 @@ export default function Home() {
     <>
       {isLoading ? (
         <div className="bg-slate-800 dark:bg-white text-slate-100 dark:text-slate-800">
-          <Header />
+          <Provider>
+          
           <main className="">
-            <LandingPage />
-            <Service />
-            <IntroService />
-            <PreviousProject />
-            <TeamVision />
-            <TeamMembers />
-            <Features />
-            <Pledge />
-            <TestiMonial />
-            <ContactInfo />
+          <Header />
+              <LandingPage />
+              <Service />
+              <IntroService />
+              <PreviousProject />
+              <TeamVision />
+              <TeamMembers />
+              <Features />
+              <Pledge />
+              <TestiMonial />
+              <ContactInfo />
+            
           </main>
+          </Provider>
           <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4"

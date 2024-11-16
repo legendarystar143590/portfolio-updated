@@ -14,7 +14,7 @@ const IntroService = () => {
             Your vision deserves to thrive, and we’re the team to make it happen. Our agile approach combines cutting-edge AI and deep technical expertise, transforming ideas into impactful, innovative solutions. We’re not just builders; we’re your partners in creating dynamic, high-quality projects that set you apart. Ready to shape the future? Let’s make your vision a reality.
           </Typography>
         </div>
-        <Image src={images.vision} width={600} height={600} alt="vision" className="rounded-xl" />
+        <Image src={images.vision} width="600" height="600" alt="vision" priority className="rounded-xl w-auto h-auto" />
 
       </div>
     </div>

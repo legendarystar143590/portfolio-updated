@@ -1,9 +1,12 @@
 'use client';  // Mark this as a client-side component (important for hooks and state)
 
 import { useEffect, useState } from 'react';
+import { useAtom } from 'jotai';
+import { darkAtom } from '@/lib/darkAtom';
 
 const UseDarkMode = () => {
   const [isDark, setIsDark] = useState(false);
+  const [darkStatus , setDarkStatus] = useAtom(darkAtom)
 
   useEffect(() => {
     // Check if dark mode preference exists in localStorage
@@ -20,7 +23,7 @@ const UseDarkMode = () => {
     } else {
       document.documentElement.classList.remove('dark');
     }
-  }, []);
+  }, [darkStatus]);
 
   const toggleDarkMode = () => {
     setIsDark((prev) => {
@@ -28,9 +31,13 @@ const UseDarkMode = () => {
       localStorage.setItem('darkMode', newState.toString()); // Save preference to localStorage
 
       if (newState) {
+        setDarkStatus(false)
         document.documentElement.classList.add('dark');
+        
       } else {
+        setDarkStatus(true)
         document.documentElement.classList.remove('dark');
+        
       }
       return newState;
     });
