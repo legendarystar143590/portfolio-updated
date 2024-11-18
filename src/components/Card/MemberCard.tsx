@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Typography from "../Typography";
 import Image from "next/image";
-// import { images } from "@/assets/images";
-// import ThemeImage from "../ThemeImage";
+import { images } from "@/assets/images";
+import ThemeImage from "../ThemeImage";
 import { useAtom } from "jotai";
 import { darkAtom } from "@/lib/darkAtom";
 import { useEffect } from "react";
@@ -31,8 +31,8 @@ const MemberCard = ({ item }: MemberCardProps) => {
               <Typography className="text-balance" size="paragraph">
                 {item.role}
               </Typography>
-              {/* <ThemeImage lightSrc={images.linkedIn} darkSrc={images.linkedIn_1} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="30" width="30" />
-              <ThemeImage lightSrc={images.instegram} darkSrc={images.instegram_1} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus}  height="30" width="30" /> */}
+              <ThemeImage lightSrc={images.linkedIn} darkSrc={images.linkedIn_1} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="30" width="30" />
+              <ThemeImage lightSrc={images.instegram} darkSrc={images.instegram_1} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus}  height="30" width="30" />
             </div>
         </div>
         <div>
