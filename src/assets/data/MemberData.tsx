@@ -8,7 +8,7 @@ export const MemberData = [
     Img: images.member1,
     linkedIn: "",
     instegram:"",
-    introduction: "The company itself is a very successful company. By rejecting the greater and the pleasures, we are born to seek guidance"
+    introduction: "The team itself is a very successful team. By rejecting the greater and the pleasures, we are born to seek guidance"
   },
   {
     name: "Hirotak Yamamoto",
@@ -19,11 +19,19 @@ export const MemberData = [
     introduction: "As a Full Stack Developer, I design and implement end-to-end software solutions, integrating both front-end and back-end technologies to optimize user experience."
   },
   {
-    name: "James William",
+    name: "Adrian Steiner",
     role: "AI engineer",
     Img: images.member3,
     linkedIn: "",
     instegram:"",
     introduction: "As an AI Engineer, I develop intelligent systems using machine learning and data-driven techniques, solving complex problems and advancing automation capabilities."
+  },
+  {
+    name: "salvadorruiz",
+    role: "Mobile App developer",
+    Img: images.member4,
+    linkedIn: "",
+    instegram:"",
+    introduction: "As a Mobile App developer, I develop dynamic mobile app which can be integrated AI and advancing automation tools."
   }
 ]

@@ -13,6 +13,7 @@ import feature4 from "../images/basic/features-04.jpg"
 import member1 from "../images/members/Jacob.jpg"
 import member2 from "../images/members/Masaki.png"
 import member3 from "../images/members/James.jpg"
+import member4 from "../images/members/salvadorruiz.png"
 import AI from "../images/Service/AI.png"
 import blockchain from "../images/Service/blockchain.png"
 import mobile from "../images/Service/mobile.png"
@@ -53,6 +54,7 @@ export const images = {
   member1,
   member2,
   member3,
+  member4,
   AI,
   blockchain,
   mobile,
