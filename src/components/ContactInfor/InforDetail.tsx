@@ -9,7 +9,7 @@ import ThemeImage from "../ThemeImage"
 const InforDetail = () => {
   const [darkStatus ] = useAtom(darkAtom)
   useEffect(()=>{
-    console.log(darkStatus)
+    // console.log(darkStatus)
   } , [darkStatus])
 
   return (

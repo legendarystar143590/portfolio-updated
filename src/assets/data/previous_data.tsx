@@ -5,14 +5,20 @@ export const previous_items = [
   {
     Img: images.dante,
     url: "https://www.dante-ai.com/",
-    title: "AI Agent Service",
+    title: "AI Agency Service",
     content: "Dante AI is your ultimate partner that unlocks remarkable, hyper personalized AI interactions."
   },
   {
+    Img: images.ollabot,
+    url: "https://app.ollabot.com",
+    title: "AI Agency SAAS Platform",
+    content: "User friendly platform that empowers users to create customized chatbot"
+  },
+  {
     Img: images.voice_agent,
-    url: "https://voagents.ai/",
+    url: "https://www.cognigy.com/platform/cognigy-knowledge-ai",
     title: "AI Voice Agent",
-    content: "AI voice assistants to make outbound calls, answer inbound calls, and schedule appointments 24/7! Experience efficient, human-like conversations and simplified customer support for comprehensive assistance."
+    content: "Reimagine customer and agent experiences with LLM-powered Q&A and enterprise search"
   },
   {
     Img: images.basketBall_analysis,
@@ -38,4 +44,5 @@ export const previous_items = [
     title: "Trading View Platform",
     content: "User friendly trading platform. We can use any device to connect"
   },
+  
 ]

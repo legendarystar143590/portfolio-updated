@@ -3,7 +3,7 @@ import { images } from "../images"
 
 const TestimonialData = [
   {
-    name: "Andrew Ng",
+    name: "Andrew W",
     content: "Great team. The team's attention to detail and commitment to delivering high-quality results has truly impressed us",
     role: "Data-centric AI Influencer",
     Img: images.Andew

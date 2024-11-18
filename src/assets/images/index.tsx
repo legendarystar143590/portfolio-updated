@@ -1,6 +1,7 @@
 import landing_image from "./landing-image.png";
 import dante from "../images/dante.png"
 import render_3d from "../images/3D_render.png"
+import ollabot from "../images/ollabot.png"
 import basketBall_analysis from "../images/basketball_analysis.png"
 import trading_view from "../images/traiding_view.png"
 import vehicle_detection from "../images/vehicle_detection.png"
@@ -75,5 +76,6 @@ export const images = {
   linkedIn_1,
   Dmitrii,
   Lisa,
-  Kevin
+  Kevin,
+  ollabot
 }
