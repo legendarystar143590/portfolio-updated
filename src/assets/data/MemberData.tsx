@@ -4,7 +4,7 @@ import { images } from "../images";
 export const MemberData = [
   {
     name: "Jacob Chan",
-    role: "CEO",
+    role: "Leader",
     Img: images.member1,
     linkedIn: "",
     instegram:"",
