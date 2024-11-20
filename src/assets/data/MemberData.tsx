@@ -7,7 +7,7 @@ export const MemberData = [
     role: "Leader",
     Img: images.member1,
     linkedIn: "",
-    instegram:"",
+    instegram:"https://www.instagram.com/jacob143590?igsh=MW9xa3d6ZTB3dnJraw==",
     introduction: "The team itself is a very successful team. By rejecting the greater and the pleasures, we are born to seek guidance"
   },
   {
