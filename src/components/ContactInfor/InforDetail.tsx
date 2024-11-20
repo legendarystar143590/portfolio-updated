@@ -5,6 +5,8 @@ import { useAtom } from "jotai"
 import { darkAtom } from "@/lib/darkAtom"
 import { useEffect } from "react"
 import ThemeImage from "../ThemeImage"
+import Link from "next/link"
+import { MemberData } from "@/assets/data/MemberData"
 
 const InforDetail = () => {
   const [darkStatus ] = useAtom(darkAtom)
@@ -34,7 +36,7 @@ const InforDetail = () => {
             <ThemeImage lightSrc={images.facebook_1} darkSrc={images.facebook} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" />
             <ThemeImage lightSrc={images.twitter_1} darkSrc={images.twitter} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" />
             <ThemeImage lightSrc={images.linkedIn_1} darkSrc={images.linkedIn} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" />
-            <ThemeImage lightSrc={images.instegram_1} darkSrc={images.instegram} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" />
+            <Link href={MemberData[0].instegram} key="instegram" ><ThemeImage lightSrc={images.instegram_1} darkSrc={images.instegram} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" /></Link>
           </div >
         </div >
 

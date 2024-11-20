@@ -38,6 +38,7 @@ import linkedIn_1 from "./Icons/linkedin (2).png"
 import Dmitrii from "../images/members/Dmitrii.png"
 import Lisa from "../images/members/Lisa.jpeg"
 import Kevin from "../images/members/Kevin.jpg"
+import logo from "../images/logo.jpg"
 
 export const images = {
   landing_image,
@@ -79,5 +80,6 @@ export const images = {
   Dmitrii,
   Lisa,
   Kevin,
-  ollabot
+  ollabot,
+  logo
 }
