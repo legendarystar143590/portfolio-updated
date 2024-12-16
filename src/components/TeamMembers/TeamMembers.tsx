@@ -12,7 +12,7 @@ const TeamMembers = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 xl:grid-cols-3 md:gap-5 lg:gap-8 xl:gap-10 min-h-[55vh] items-center p-5">
           {
             MemberData.map((item, key) => (
-              <div key={key} className="text-slate-800 rounded-lg p-6 pt-10 flex justify-between gap-2 bg-white h-[350px] md:h-[400px] dark:bg-slate-600">
+              <div key={key} className="text-slate-800 rounded-lg p-6 pt-10 flex justify-between gap-2 bg-slate-200 h-[350px] md:h-[400px] dark:text-white dark:bg-slate-700">
                 <MemberCard item={item} />
               </div>
             ))
