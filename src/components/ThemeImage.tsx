@@ -14,7 +14,7 @@ const ThemeImage = ({lightSrc, darkSrc, className, alt, darkStatus, width, heigh
     return (
         <div>
             {darkStatus ? (
-                <Image src={lightSrc as string} alt={alt} width={parseInt(width)} height={parseInt(height)} className={className} />
+                <Image src={lightSrc as string} alt={alt} width={parseInt(width)} height={parseInt(height)} className={className}  />
             ) : (
                 <Image src={darkSrc as string} alt={alt} width={parseInt(width)} height={parseInt(height)} className={className} />
             )}

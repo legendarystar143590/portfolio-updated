@@ -5,6 +5,7 @@ import ollabot from "../images/ollabot.png"
 import basketBall_analysis from "../images/basketball_analysis.png"
 import trading_view from "../images/traiding_view.png"
 import vehicle_detection from "../images/vehicle_detection.png"
+import doctor_chatbot from "../images/doctor-chatbot.png"
 import voice_agent from "../images/voice_agent.png"
 import feature1 from "../images/basic/features-01.jpg"
 import feature2 from "../images/basic/features-02.jpg"
@@ -24,6 +25,7 @@ import vision from "../images/Team/vision.png"
 import teamVision from "../images/Team/teamVision.png"
 import Andew from "../images/feedback/Andrew.png"
 import Lenka from "../images/feedback/Lenka.png"
+import member5 from "../images/members/Anders.png"
 import email from "./Icons/email.png"
 import phone from "./Icons/phone.png"
 import placeholder from "./Icons/placeholder.png"
@@ -48,6 +50,7 @@ export const images = {
   trading_view,
   vehicle_detection,
   voice_agent,
+  doctor_chatbot,
   feature1,
   feature2,
   feature3,
@@ -81,5 +84,6 @@ export const images = {
   Lisa,
   Kevin,
   ollabot,
-  logo
+  logo,
+  member5
 }

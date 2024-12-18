@@ -9,10 +9,10 @@ export const previous_items = [
     content: "Dante AI is your ultimate partner that unlocks remarkable, hyper personalized AI interactions."
   },
   {
-    Img: images.ollabot,
-    url: "https://app.ollabot.com",
-    title: "AI Agency SAAS Platform",
-    content: "User friendly platform that empowers users to create customized chatbot"
+    Img: images.doctor_chatbot,
+    url: "https://docus.ai/ai-doctor",
+    title: "AI Heathcare platform",
+    content: "A healthcare AI project designed to assist patients with greater convenience."
   },
   {
     Img: images.voice_agent,
