@@ -25,7 +25,7 @@ export const MemberData = [
     role: "AI engineer",
     Img: images.member3,
     linkedIn: "",
-    twitter:"https://x.com/jacob1435982303",
+    twitter:"https://x.com/TakumaTa2244",
     instegram:"https://www.instagram.com/_takuma_hiroshi?igsh=bWU1MXh2bGtibDc%3D&utm_source=qr",
     introduction: "As an AI Engineer, I develop intelligent systems using machine learning and data-driven techniques, solving complex problems and advancing automation capabilities."
   },

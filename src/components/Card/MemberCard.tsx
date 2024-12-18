@@ -25,7 +25,7 @@ const MemberCard = ({ item }: MemberCardProps) => {
   } , [darkStatus])
   return (
     <div className="flex flex-col gap-5 justify-between overflow-hidden rounded-2xl">
-      <Typography className="h-[250] overflow-x-auto text-justify text-lg" size="subtitle-25">{item.introduction}</Typography>
+      <Typography className="h-[250] overflow-x-auto text-justify text-lg" size="paragraph">{item.introduction}</Typography>
       <div className="flex justify-between">
         <div className="flex-row justify-between overflow-hidden items-center align-middle">
             <Link href={item.linkedIn}><Typography className="text-balance  hover:text-slate-500 dark:hover:text-slate-200" size="h4">{item.name}</Typography></Link>

@@ -11,7 +11,7 @@ const TeamVision = () => {
           <Typography size="h3">
             Our Team
           </Typography>
-          <Typography size="subtitle-25" className="">
+          <Typography size="subtitle-25" className="text-justify">
             Meet our team: developers who bring your vision to life with dynamic, high-impact solutions. We have walked the startup path, creating tech that matters and goes beyond the screen. With us, it’s not just code—it’s a partnership. Our blend of precision, passion, and cutting-edge expertise in AI and software development empowers innovation that resonates. Let’s build something extraordinary.
           </Typography>
         </div>

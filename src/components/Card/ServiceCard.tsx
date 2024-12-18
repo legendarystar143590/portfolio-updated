@@ -48,7 +48,8 @@ const ServiceCard = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>))
+            </SwiperSlide>
+            ))
         }
       </Swiper>
     </>

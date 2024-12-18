@@ -17,9 +17,9 @@ const PreviousCard = () => {
   const { width } = useWindowSize();
   const [currentSlide, setCurrentSlide] = useState(3);
   useEffect(() => {
-    if (width > 1520) setCurrentSlide(4)
-    else if (width > 1024) setCurrentSlide(3)
-    else if (width > 768) setCurrentSlide(2)
+    if (width > 1520) setCurrentSlide(5)
+    else if (width > 1024) setCurrentSlide(4)
+    else if (width > 768) setCurrentSlide(3)
     else if (width > 500) setCurrentSlide(2)
     else setCurrentSlide(1)
   }, [width])
@@ -40,11 +40,13 @@ const PreviousCard = () => {
           previous_items.map((item, key) => (
             <SwiperSlide className='bg-slate-400 dark:bg-slate-800 gap-15' key={key}>
               <div className="flex h-full">
-                <div className="flex flex-col gap-10 justify-between ">
-
-                  <Image src={item.Img} width={500} height={500} alt={item.title} className='' />
-
-                  <div className='h-[300px]'>
+                <div className="flex flex-col gap-10 ">
+                    <div className='h-[200px]'>
+                        <Link href={item.url} target='_blank'>
+                            <Image src={item.Img} width={500} height={500} alt={item.title} className='h-[500px] w-[500px]' />
+                        </Link>
+                    </div>
+                  <div>
                     <Link href={item.url} target='_blank'>
                       <Typography size='h4' className='hover:cursor-pointer'>{item.title}</Typography>
                     </Link>
