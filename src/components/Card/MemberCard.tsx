@@ -33,9 +33,11 @@ const MemberCard = ({ item }: MemberCardProps) => {
               <Typography className="text-balance" size="paragraph">
                 {item.role}
               </Typography>
+
               {!item.linkedIn ? "" : (<a href={item.linkedIn} target="blank"><ThemeImage lightSrc={images.linkedIn} darkSrc={images.linkedIn_1} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="30" width="30" /></a>)}
               {!item.instegram ? "" : (<a href={item.instegram} target="blank"><ThemeImage lightSrc={images.instegram} darkSrc={images.instegram_1} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus}  height="30" width="30" /></a>)}
               {!item.twitter ? "" : (<a href={item.twitter} target="blank"><ThemeImage lightSrc={images.twitter} darkSrc={images.twitter_1} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus}  height="30" width="30" /></a>)}
+
             </div>
         </div>
         <div>
