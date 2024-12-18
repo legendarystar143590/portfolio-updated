@@ -4,7 +4,7 @@ import Typography from "../Typography";
 const Pledge = () => {
   return (
     <div className="flex min-h-[90vh] bg-slate-800 dark:bg-slate-200 p-10 w-full items-center justify-center">
-      <div className="flex flex-col w-4/5 xm:3/5 lg:w-2/5 gap-20 items-center">
+      <div className="flex flex-col w-4/5 xm:3/5 lg:w-2/5 lg:gap-20 gap-10 items-center">
         <Typography className="" size="h3">
           Our Pledge to you
         </Typography>

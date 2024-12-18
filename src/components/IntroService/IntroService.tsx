@@ -10,7 +10,7 @@ const IntroService = () => {
           <Typography size="h3">
             Opportunity doesn’t pause, so why should you?
           </Typography>
-          <Typography size="subtitle-25" className="text-center">
+          <Typography size="subtitle-25" className="text-justify">
             Your vision deserves to thrive, and we’re the team to make it happen. Our agile approach combines cutting-edge AI and deep technical expertise, transforming ideas into impactful, innovative solutions. We’re not just builders; we’re your partners in creating dynamic, high-quality projects that set you apart. Ready to shape the future? Let’s make your vision a reality.
           </Typography>
         </div>

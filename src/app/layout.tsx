@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "IntelliGen",
+  title: "Kaizien",
   description: "Team Portfolio",
   
 };

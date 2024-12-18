@@ -23,6 +23,10 @@ const items = [
     name: "Gallery",
     href: "/#gallery",
   },
+  // {
+  //   name : "Members",
+  //   href : "/#member"
+  // },
 
   {
     name: "Contact",
@@ -37,7 +41,7 @@ const Header = () => {
         <div className="flex flex-col gap-4 w-3/5 items-center md:flex-row md:justify-between duration-300 md:delay-100">
           <Typography className="items-center text-sky-500 font-semibold flex flex-row gap-10" size="h4">
           <Link href="/#home"><Image src={images.logo} alt="logo" width="30" height="30" className="w-auto h-auto" priority /></Link>
-            Legends
+            KIZIEN
           </Typography>
           <div className="flex">
             <ul className="flex flex-row gap-5 list-none">

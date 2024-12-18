@@ -42,7 +42,21 @@ import Lisa from "../images/members/Lisa.jpeg"
 import Kevin from "../images/members/Kevin.jpg"
 import logo from "../images/logo.jpg"
 
+import chicken from "../images/previous_blockchain/chicken.png"
+import cross_cat from "../images/previous_blockchain/cross_cat.png"
+import future_swap from "../images/previous_blockchain/future_swap.png"
+import GPU_dao from "../images/previous_blockchain/GPU_dao.png"
+import kaizen from "../images/previous_blockchain/kaizen.png"
+import nft_marketplace from "../images/previous_blockchain/nft_marketplace.png"
+import sport_betting from "../images/previous_blockchain/sport_betting.png"
+
 export const images = {
+  cross_cat,
+  future_swap,
+  GPU_dao,
+  kaizen,
+  nft_marketplace,
+  sport_betting,
   landing_image,
   dante,
   render_3d,
@@ -85,5 +99,6 @@ export const images = {
   Kevin,
   ollabot,
   logo,
-  member5
+  member5,
+  chicken
 }
