@@ -14,7 +14,7 @@ const LandingPage = () => {
             Welcome, to Kaizien
           </Typography>
           <Typography size="paragraph" className="text-center">
-            Here We are gonna share all about our professional<br/> life works ,projects and all
+            Here We are gonna share all about our professional<br/> life works, projects and all
           </Typography>
         </div>
         <Image src={images.landing_image} className="md:block w-auto h-auto" alt="landing_image"
