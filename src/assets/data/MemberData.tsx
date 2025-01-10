@@ -13,12 +13,12 @@ export const MemberData = [
   },
   {
     name: "Hirotak Yamamoto",
-    role: "Full Stack Developer",
+    role: "Full Stack Enginner",
     Img: images.member2,
     linkedIn: "",
     twitter:"",
     instegram:"",
-    introduction: "As a Full Stack Developer, I design and implement end-to-end software solutions, integrating both front-end and back-end technologies to optimize user experience."
+    introduction: "As a Full Stack Engineer, I design and implement end-to-end software solutions, integrating both front-end and back-end technologies to optimize user experience."
   },
   {
     name: "Takuma Hiroshi",
@@ -31,16 +31,16 @@ export const MemberData = [
   },
   {
     name: "salvadorruiz",
-    role: "Mobile App developer",
+    role: "Mobile App Enginner",
     Img: images.member4,
     linkedIn: "",
     twitter:"https://x.com/sruiz36248",
     instegram:"",
-    introduction: "As a Mobile App developer, I develop dynamic mobile app which can be integrated AI and advancing automation tools."
+    introduction: "As a Mobile App engineer, I develop dynamic mobile app which can be integrated AI and advancing automation tools."
   },
   {
     name: "Anders Nielsen",
-    role: "Blockchain developer",
+    role: "Blockchain engineer",
     Img: images.member5,
     linkedIn: "https://www.linkedin.com/in/anders-nielsen-050ab62b7/",
     twitter:"",

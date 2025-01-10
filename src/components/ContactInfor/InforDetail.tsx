@@ -33,10 +33,10 @@ const InforDetail = () => {
             </div>
           </div>
           <div className="flex flex-row gap-8 p-5">
-            <ThemeImage lightSrc={images.facebook_1} darkSrc={images.facebook} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" />
-            <ThemeImage lightSrc={images.twitter_1} darkSrc={images.twitter} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" />
-            <ThemeImage lightSrc={images.linkedIn_1} darkSrc={images.linkedIn} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" />
-            <Link href={MemberData[0].instegram} key="instegram" ><ThemeImage lightSrc={images.instegram_1} darkSrc={images.instegram} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" /></Link>
+            {/* <ThemeImage lightSrc={images.facebook_1} darkSrc={images.facebook} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" /> */}
+            {/* <ThemeImage lightSrc={images.twitter_1} darkSrc={images.twitter} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" /> */}
+            {/* <ThemeImage lightSrc={images.linkedIn_1} darkSrc={images.linkedIn} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" /> */}
+            {/* <Link href={MemberData[0].instegram} key="instegram" ><ThemeImage lightSrc={images.instegram_1} darkSrc={images.instegram} className="w-auto h-auto" alt="theme" darkStatus = {darkStatus} height="40" width="40" /></Link> */}
           </div >
         </div >
 
